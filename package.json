@@ -4,7 +4,7 @@
   "description": "The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "khipu",
-    "payment"
+    "payment processing",
+    "credit cards",
+    "api"
   ],
   "author": "edwin.encinas@tuttis.com",
   "license": "ISC",
@@ -27,5 +29,7 @@
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
