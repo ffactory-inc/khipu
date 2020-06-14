@@ -1,0 +1,13 @@
+.DS_Store
+.vscode
+.npmrc
+.gitignore
+.editorconfig
+.npmignore
+.eslintrc
+
+npm-debug.log
+package-lock.json
+
+.git
+node_modules
