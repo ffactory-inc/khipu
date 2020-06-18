@@ -1,5 +1,7 @@
 # Khipu Node.js Library
 
+![publish Node.js Package](https://github.com/TeLoPreparo/khipunodejspackage/workflows/publish%20Node.js%20Package/badge.svg?branch=develop)
+
 The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript.
 
 ## Documentation
