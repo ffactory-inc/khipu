@@ -1,6 +1,6 @@
 {
   "name": "@TeLoPreparo/khipu",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript",
   "main": "index.js",
   "scripts": {
@@ -32,8 +32,7 @@
   "devDependencies": {
     "jest": "^26.0.1"
   },
-  "publishConfig":
-    {
-      "registry": "https://npm.pkg.github.com/"
-    }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
