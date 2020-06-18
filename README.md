@@ -9,9 +9,9 @@ See the khipu-node API docs for Node.js.
 ## Installation
 
 ```sh
-npm install --save @tuttis/khipu
+npm install --save @TeLoPreparo/khipu
 #or
-yarn add @tuttis/khipu
+yarn add @TeLoPreparo/khipu
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ The package needs to be configured with your account's secret key, which is avai
 
 ```javascript
 
-const KhipuClient = require("@tuttis/khipu")
+const KhipuClient = require("@TeLoPreparo/khipu")
 
 KhipuClient.setAuthentication({
   secret: "<RECEIVER_SECRET>",
