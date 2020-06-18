@@ -4,7 +4,7 @@
   "description": "The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,9 @@
   },
   "devDependencies": {
     "jest": "^26.0.1"
-  }
+  },
+  "publishConfig":
+    {
+      "registry": "https://npm.pkg.github.com/"
+    }
 }
