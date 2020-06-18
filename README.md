@@ -1,6 +1,6 @@
 # Khipu Node.js Library
 
-![Publish Khipu Node library](https://github.com/TeLoPreparo/khipunodejspackage/workflows/publish%20Node.js%20Package/badge.svg?branch=develop)
+![Publish Khipu Node library](https://github.com/TeLoPreparo/khipunodejspackage/workflows/Publish%20Khipu%20Node%20library/badge.svg?branch=develop)
 
 The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript.
 
@@ -11,9 +11,9 @@ See the khipu-node API docs for Node.js.
 ## Installation
 
 ```sh
-npm install --save @TeLoPreparo/khipu
+npm install --save @telopreparo/khipu
 #or
-yarn add @TeLoPreparo/khipu
+yarn add @telopreparo/khipu
 ```
 
 ## Usage
