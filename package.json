@@ -1,5 +1,5 @@
 {
-  "name": "@telopreparo/khipu",
+  "name": "@ffactory/khipu",
   "version": "1.3.0",
   "description": "The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript",
   "main": "index.js",
