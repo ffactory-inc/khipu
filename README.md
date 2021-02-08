@@ -13,7 +13,7 @@ See the khipu-node API docs for Node.js.
 ```sh
 npm install --save @ffactory/khipu
 #or
-yarn add @telopreparo/khipu
+yarn add @ffactory/khipu
 ```
 
 ## Usage
