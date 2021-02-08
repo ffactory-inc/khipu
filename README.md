@@ -11,7 +11,7 @@ See the khipu-node API docs for Node.js.
 ## Installation
 
 ```sh
-npm install --save @telopreparo/khipu
+npm install --save @ffactory/khipu
 #or
 yarn add @telopreparo/khipu
 ```
@@ -22,7 +22,7 @@ The package needs to be configured with your account's secret key, which is avai
 
 ```javascript
 
-const KhipuClient = require("@TeLoPreparo/khipu")
+const KhipuClient = require("@ffactory/khipu")
 
 KhipuClient.setAuthentication({
   secret: "<RECEIVER_SECRET>",
