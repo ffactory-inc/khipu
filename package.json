@@ -1,14 +1,10 @@
 {
-  "name": "@ffactory/khipu",
-  "version": "1.3.0",
+  "name": "khipu",
+  "version": "1.0.0",
   "description": "The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript",
   "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TeLoPreparo/khipunodejspackage.git"
+  "directories": {
+    "lib": "lib"
   },
   "keywords": [
     "khipu",
@@ -16,18 +12,22 @@
     "credit cards",
     "api"
   ],
-  "author": "edwin.encinas@tuttis.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TeLoPreparo/khipunodejspackage/issues"
+  "scripts": {
+    "test": "jest --coverage"
   },
-  "homepage": "https://github.com/TeLoPreparo/khipunodejspackage#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffactory-do/khipu.git"
+  },
+  "author": "edwin@ffactory.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ffactory-do/khipu/issues"
+  },
+  "homepage": "https://github.com/ffactory-do/khipu#readme",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "http-status-codes": "^1.4.0"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "devDependencies": {
     "jest": "^26.0.1"

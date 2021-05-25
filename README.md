@@ -11,9 +11,9 @@ See the khipu-node API docs for Node.js.
 ## Installation
 
 ```sh
-npm install --save @ffactory/khipu
+npm install --save @ffactory-do/khipu
 #or
-yarn add @ffactory/khipu
+yarn add @ffactory-do/khipu
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ The package needs to be configured with your account's secret key, which is avai
 
 ```javascript
 
-const KhipuClient = require("@ffactory/khipu")
+const KhipuClient = require("@ffactory-do/khipu")
 
 KhipuClient.setAuthentication({
   secret: "<RECEIVER_SECRET>",
@@ -56,4 +56,4 @@ async function getbanks() {
 getbanks();
 ```
 
-## More detail about Khipu API reference, [clik here](https://cl.khipu.com/page/api-referencia)
+## More detail about Khipu API reference [clik here](https://cl.khipu.com/page/api-referencia)
