@@ -1,6 +1,6 @@
 {
   "name": "khipu",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "description": "The Khipu Node library provides convenient access to the Khipu API from applications written in server-side JavaScript",
   "main": "index.js",
   "directories": {
@@ -30,9 +30,18 @@
     "http-status-codes": "^1.4.0"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+    "jest-sonar-reporter": "^2.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
   }
 }
