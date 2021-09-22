@@ -13,7 +13,7 @@
     "api"
   ],
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --ci --coverage --watchAll=false --testResultsProcessor=jest-sonar-reporter"
   },
   "repository": {
     "type": "git",
@@ -41,7 +41,7 @@
   },
   "jestSonar": {
     "reportPath": "coverage",
-    "reportFile": "test-reporter.xml",
+    "reportFile": "coverage-report.xml",
     "indent": 4
   }
 }
